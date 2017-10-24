@@ -1,8 +1,8 @@
-package Ex3;
+package Ex03;
 
 import java.util.Scanner;
 
-public class Thread2 implements Runnable{
+public class Thread1 implements Runnable{
 	
 	private int[] vetor = new int[200];
 
@@ -15,16 +15,22 @@ public class Thread2 implements Runnable{
     	
     	
     	 Scanner ler = new Scanner(System.in);
-    	 System.out.println("Busca 2: Digite o valor que voce deseja: ");
+    	 System.out.println("Busca 1: Digite o valor que voce deseja: ");
     	 int busca = ler.nextInt();
     	
     	 
-    	for(int i=100;i<200 && vetor[i]!=busca;i++) {
+    	for(int i=0;i<100 && vetor[i]!=busca;i++) {
     		System.out.println(-1);
     	}
     	 
     	
     	ler.close();
     	 
-    }
+    	
+            
+        
+     }
+  
+
+
 }
