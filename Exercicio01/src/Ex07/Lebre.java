@@ -1,4 +1,4 @@
-package Ex7;
+package Ex07;
 
 public class Lebre {
 	
