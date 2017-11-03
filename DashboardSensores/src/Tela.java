@@ -1,19 +1,16 @@
+import java.util.Scanner;
 
 public class Tela {
-	
-	public static void main(String ...args) throws InterruptedException {
-		
-		Entrada e1 = new Entrada();
-		e1.start();
-		
-		e1.join();
-		
-		Dash d1 = new Dash();
-		
-		d1.start();
-		
-		
+	static Scanner ler = new Scanner(System.in);
+	public static void main(String ...args) {
+				
+				Entrada entrada = new Entrada();
+				entrada.start();
+				Saida saida = new Saida();
+				saida.start();
+					
 	}
+	
 	
 
 }
